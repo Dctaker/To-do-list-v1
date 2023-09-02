@@ -1,0 +1,72 @@
+.paiModal{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+h1{
+    text-align: center;
+}
+
+.containerModal{
+    margin-top: 30px;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.textoContainer{
+    height: 100px;
+    
+}
+
+.itemTexto{
+    display: flex;
+    margin-top: 15px;
+    gap: 8px;
+}
+
+.itemTexto input{
+    outline: none;
+    font-family: sans-serif;
+    padding: 0px;
+}
+
+.itemTexto p {
+    font-size: .9rem;
+}
+
+.comentContainer{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comentContainer textarea{
+    height: 70px;
+    padding: 10px;
+    width: 80%;
+    outline: none;
+}
+
+.comentContainer button{
+    padding: 3px;
+    width: 80%;
+    cursor: pointer;
+}
+
+.fecharModal{
+    position: absolute;
+    top: -30px;
+    right: 0;
+    padding: 8px 14px;
+    border: transparent;
+    font-weight: bolder;
+    cursor: pointer;
+}

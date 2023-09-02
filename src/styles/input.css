@@ -1,0 +1,24 @@
+
+
+.inputContainer{
+width: 80%;
+padding: 15px;
+
+}
+
+.inputContainer input{
+    padding: 8px;
+    width: 75%;
+    border: none;
+    border-bottom:1px solid black;
+    outline: none;
+    
+}
+
+.inputContainer button{
+    padding: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+   
+    
+}
